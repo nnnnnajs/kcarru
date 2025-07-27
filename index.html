@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K CAR RU</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+
+        <!-- Тип автомобиля -->
+        <div class="filter-el filter-el-carType">
+        <button class="accordion">Тип автомобиля</button>
+        <div class="accordion-content">
+            <div class="checkbox-group checkbox-group--carType">
+
+                <label class="checkbox-group-el" for="cartype01">
+                    <input name="carType" type="checkbox" value="cartype01" id="cartype01" class="real-checkbox">
+                    <span class="custom-checkbox">
+                        <div class="blockBox">
+                            <span class="el-icon compactCar">
+                                <img src="./img/icon_compactCar.svg" alt="compactCar">
+                            </span>
+                            <span class="el-desc">
+                                Легковые
+                            </span>
+                        </div>
+                    </span>
+                </label>
+
+                <label class="checkbox-group-el" for="cartype02">
+                    <input name="carType" type="checkbox" value="cartype02" id="cartype02" class="real-checkbox">
+                    <span class="custom-checkbox">
+                        <div class="blockBox">
+                            <span class="el-icon smallCar">
+                                <img src="./img/icon_smallCar.svg" alt="smallCar">
+                            </span>
+                            <span class="el-desc">
+                                Маленькие
+                            </span>
+                        </div>
+                    </span>
+                </label>
+
+                <label class="checkbox-group-el" for="cartype03">
+                    <input name="carType" type="checkbox" value="cartype03" id="cartype03" class="real-checkbox">
+                    <span class="custom-checkbox">
+                        <div class="blockBox">
+                            <span class="el-icon semiMediumCar">
+                                <img src="./img/icon_semiMediumCar.svg" alt="semiMediumCar">
+                            </span>
+                            <span class="el-desc">
+                                Компактный
+                            </span>
+                        </div>
+                    </span>
+                </label>
+
+                <label class="checkbox-group-el" for="cartype04">
+                    <input name="carType" type="checkbox" value="cartype04" id="cartype04" class="real-checkbox">
+                    <span class="custom-checkbox">
+                        <div class="blockBox">
+                            <span class="el-icon mediumCar">
+                                <img src="./img/icon_mediumCar.svg" alt="mediumCar">
+                            </span>
+                            <span class="el-desc">
+                                средние
+                            </span>
+                        </div>
+                    </span>
+                </label>
+
+                <label class="checkbox-group-el" for="cartype05">
+                    <input name="carType" type="checkbox" value="cartype05" id="cartype05" class="real-checkbox">
+                    <span class="custom-checkbox">
+                        <div class="blockBox">
+                            <span class="el-icon largeCar">
+                                <img src="./img/icon_largeCar.svg" alt="largeCar">
+                            </span>
+                            <span class="el-desc">
+                                большие
+                            </span>
+                        </div>
+                    </span>
+                </label>
+
+                <label class="checkbox-group-el" for="cartype06">
+                    <input name="carType" type="checkbox" value="cartype06" id="cartype06" class="real-checkbox">
+                    <span class="custom-checkbox">
+                        <div class="blockBox">
+                            <span class="el-icon sportsCar">
+                                <img src="./img/icon_sportsCar.svg" alt="sportsCar">
+                            </span>
+                            <span class="el-desc">
+                                Спортивные
+                            </span>
+                        </div>
+                    </span>
+                </label>
+
+                <label class="checkbox-group-el" for="cartype07">
+                    <input name="carType" type="checkbox" value="cartype07" id="cartype07" class="real-checkbox">
+                    <span class="custom-checkbox">
+                        <div class="blockBox">
+                            <span class="el-icon suvCar">
+                                <img src="./img/icon_suv.svg" alt="suv">
+                            </span>
+                            <span class="el-desc">
+                                Внедорожник
+                            </span>
+                        </div>
+                    </span>
+                </label>
+
+                <label class="checkbox-group-el" for="cartype08">
+                    <input name="carType" type="checkbox" value="cartype08" id="cartype08" class="real-checkbox">
+                    <span class="custom-checkbox">
+                        <div class="blockBox">
+                            <span class="el-icon rvCar">
+                                <img src="./img/icon_rv.svg" alt="rv">
+                            </span>
+                            <span class="el-desc">
+                                Дом на колесах
+                            </span>
+                        </div>
+                    </span>
+                </label>
+
+                <label class="checkbox-group-el" for="cartype09">
+                    <input name="carType" type="checkbox" value="cartype09" id="cartype09" class="real-checkbox">
+                    <span class="custom-checkbox">
+                        <div class="blockBox">
+                            <span class="el-icon lightVanCar">
+                                <img src="./img/icon_lightVan.svg" alt="lightVan">
+                            </span>
+                            <span class="el-desc">
+                                Минивэн
+                            </span>
+                        </div>
+                    </span>
+                </label>
+
+                <label class="checkbox-group-el" for="cartype10">
+                    <input name="carType" type="checkbox" value="cartype10" id="cartype10" class="real-checkbox">
+                    <span class="custom-checkbox">
+                        <div class="blockBox">
+                            <span class="el-icon vanTypeCar">
+                                <img src="./img/icon_vanType.svg" alt="vanType">
+                            </span>
+                            <span class="el-desc">
+                                Фургон
+                            </span>
+                        </div>
+                    </span>
+                </label>
+
+                <label class="checkbox-group-el" for="cartype11">
+                    <input name="carType" type="checkbox" value="cartype11" id="cartype11" class="real-checkbox">
+                    <span class="custom-checkbox">
+                        <div class="blockBox">
+                            <span class="el-icon truckTypeCar">
+                                <img src="./img/icon_truckType.svg" alt= truckType">
+                            </span>
+                            <span class="el-desc">
+                                Грузовик
+                            </span>
+                        </div>
+                    </span>
+                </label>
+
+                <label class="checkbox-group-el" for="cartype12">
+                    <input name="carType" type="checkbox" value="cartype12" id="cartype12" class="real-checkbox">
+                    <span class="custom-checkbox">
+                        <div class="blockBox">
+                            <span class="el-icon busCar">
+                                <img src="./img/icon_bus.svg" alt="bus">
+                            </span>
+                            <span class="el-desc">
+                                Автобус
+                            </span>
+                        </div>
+                    </span>
+                </label>
+
+            </div>
+        </div>
+        </div>
+        <!-- Тип автомобиля -->
+
+        <!-- Прроизводитель автомобиля -->
+        <div class="filter-el filter-el-carManufacturer">
+
+            <label class="filter-el__title">Производитель</label>
+
+            <div class="select-wrapper"> 
+                <select class="select" id="manufacturer">
+                    <option value="" selected>Выберите...</option>
+                    <option value="Hyundai">Hyundai</option>
+                    <option value="Kia">Kia</option>
+                    <!-- ДОБАВИТЬ ВСЕ МАРКИ -->
+                </select>
+            </div>
+
+        </div>
+        <!-- Прроизводитель автомобиля -->
+
+        <!-- Модель автомобиля -->
+        <div class="filter-el filter-el-carModel">
+        
+            <label class="filter-el__title">Модель</label>
+        
+            <div class="select-wrapper">
+                <select class="select" id="model">
+                    <option value="" selected>Выберите...</option>
+                    <option value="Hyundai">Hyundai</option>
+                    <option value="Kia">Kia</option>
+                    <!-- ДОБАВИТЬ ВСЕ МАРКИ -->
+                </select>
+            </div>
+        
+        </div>
+        <!-- Модель автомобиля -->
+
+        <!-- Серия автомобиля -->
+        <div class="filter-el filter-el-carSeries">
+        
+            <label class="filter-el__title">Серия</label>
+        
+            <div class="select-wrapper">
+                <select class="select" id="series">
+                    <option value="" selected>Выберите...</option>
+                </select>
+            </div>
+        
+        </div>
+        <!-- Серия автомобиля -->
+
+        <!-- Пробег -->
+        <div class="filter-el filter-el-carMileage">
+            <label class="filter-el__title">Пробег</label>
+            <div class="row">
+                <div class="input-wrapper">
+                    <input class="input" type="number" id="mileageFrom" placeholder="От">
+                </div>
+                <div class="input-wrapper">
+                    <input class="input" type="number" id="mileageTo" placeholder="До">
+                </div>
+            </div>
+        </div>
+        <!-- Пробег -->
+
+        <!-- Цена -->
+        <div class="filter-el filter-el-carPrice">
+            <label class="filter-el__title">Цена (₩)</label>
+            <div class="row">
+                <div class="input-wrapper">
+                    <input class="input" type="number" id="priceFrom" placeholder="От">
+                </div>
+                <div class="input-wrapper">
+                    <input class="input" type="number" id="priceTo" placeholder="До">
+                </div>
+            </div>
+        </div>
+        <!-- Цена -->
+
+        <!-- Год выпуска -->
+        <div class="filter-el filter-el-carYear">
+            <label class="filter-el__title">Год выпуска</label>
+            <div class="row">
+                <div class="select-wrapper">
+                    <select class="select filter-el-carYear__select" id="yearFrom">
+                        <option value="" selected>От</option>
+                    </select>
+                </div>
+                <div class="select-wrapper">
+                    <select class="select filter-el-carYear__select" id="yearTo">
+                        <option value="" selected>До</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <!-- Год выпуска -->
+
+        <!-- Цвет -->
+        <div class="filter-el filter-el-carColor">
+            <button class="accordion">Цвет</button>
+            <div class="accordion-content">
+                <div class="checkbox-group carColor">
+
+                    <label class="checkbox-group-el" for="carcolor01">
+                        <input name="carType" type="checkbox" value="carcolor01" id="carcolor01" class="real-checkbox">
+                        <span class="custom-checkbox">    
+                                <span class="el-icon--color white-color__wrapper">
+                                    <img class="color-img" src="./img/carcolor01.png" alt="white">
+                                </span>
+                                <span class="el-desc--color ">
+                                    Белый
+                                </span>
+                        </span>
+                    </label>
+
+                    <label class="checkbox-group-el" for="carcolor02">
+                        <input name="carType" type="checkbox" value="carcolor02" id="carcolor02" class="real-checkbox">
+                        <span class="custom-checkbox">
+                            <span class="el-icon--color color-img__wrapper">
+                                <img class="color-img" src="./img/carcolor02.png" alt="white">
+                            </span>
+                            <span class="el-desc--color ">
+                                Жемчужно-серый
+                            </span>
+                        </span>
+                    </label>
+
+                    <label class="checkbox-group-el" for="carcolor03">
+                        <input name="carType" type="checkbox" value="carcolor03" id="carcolor03" class="real-checkbox">
+                        <span class="custom-checkbox">
+                            <span class="el-icon--color color-img__wrapper">
+                                <img class="color-img" src="./img/carcolor03.png" alt="white">
+                            </span>
+                            <span class="el-desc--color ">
+                                Соболь
+                            </span>
+                        </span>
+                    </label>
+
+                    <label class="checkbox-group-el" for="carcolor04">
+                        <input name="carType" type="checkbox" value="carcolor04" id="carcolor04" class="real-checkbox">
+                        <span class="custom-checkbox">
+                            <span class="el-icon--color color-img__wrapper">
+                                <img class="color-img" src="./img/carcolor04.png" alt="white">
+                            </span>
+                            <span class="el-desc--color ">
+                                Черный двухцветный
+                            </span>
+                        </span>
+                    </label>
+
+                    <label class="checkbox-group-el" for="carcolor05">
+                        <input name="carType" type="checkbox" value="carcolor05" id="carcolor05" class="real-checkbox">
+                        <span class="custom-checkbox">
+                            <span class="el-icon--color color-img__wrapper">
+                                <img class="color-img" src="./img/carcolor05.png" alt="white">
+                            </span>
+                            <span class="el-desc--color ">
+                                мышино-серый
+                            </span>
+                        </span>
+                    </label>
+
+                    <label class="checkbox-group-el" for="carcolor06">
+                        <input name="carType" type="checkbox" value="carcolor06" id="carcolor06" class="real-checkbox">
+                        <span class="custom-checkbox">
+                            <span class="el-icon--color color-img__wrapper">
+                                <img class="color-img" src="./img/carcolor06.png" alt="white">
+                            </span>
+                            <span class="el-desc--color ">
+                                Серебро
+                            </span>
+                        </span>
+                    </label>
+
+                    <label class="checkbox-group-el" for="carcolor07">
+                        <input name="carType" type="checkbox" value="carcolor07" id="carcolor07" class="real-checkbox">
+                        <span class="custom-checkbox">
+                            <span class="el-icon--color color-img__wrapper">
+                                <img class="color-img" src="./img/carcolor07.png" alt="white">
+                            </span>
+                            <span class="el-desc--color ">
+                                Серебристо-серый
+                            </span>
+                        </span>
+                    </label>
+
+                    <label class="checkbox-group-el" for="carcolor08">
+                        <input name="carType" type="checkbox" value="carcolor08" id="carcolor08" class="real-checkbox">
+                        <span class="custom-checkbox">
+                            <span class="el-icon--color color-img__wrapper">
+                                <img class="color-img" src="./img/carcolor08.png" alt="white">
+                            </span>
+                            <span class="el-desc--color ">
+                                Серебряный двухцветный
+                            </span>
+                        </span>
+                    </label>
+
+                    <label class="checkbox-group-el" for="carcolor09">
+                        <input name="carType" type="checkbox" value="carcolor09" id="carcolor09" class="real-checkbox">
+                        <span class="custom-checkbox">
+                            <span class="el-icon--color color-img__wrapper">
+                                <img class="color-img" src="./img/carcolor09.png" alt="white">
+                            </span>
+                            <span class="el-desc--color ">
+                                Белый двухцветный
+                            </span>
+                        </span>
+                    </label>
+
+                    <label class="checkbox-group-el" for="carcolor10">
+                        <input name="carType" type="checkbox" value="carcolor10" id="carcolor10" class="real-checkbox">
+                        <span class="custom-checkbox">
+                            <span class="el-icon--color color-img__wrapper">
+                                <img class="color-img" src="./img/carcolor10.png" alt="white">
+                            </span>
+                            <span class="el-desc--color ">
+                                Перламутровый двухцветный
+                            </span>
+                        </span>
+                    </label>
+
+                    <label class="checkbox-group-el" for="carcolor11">
+                        <input name="carType" type="checkbox" value="carcolor11" id="carcolor11" class="real-checkbox">
+                        <span class="custom-checkbox">
+                            <span class="el-icon--color color-img__wrapper">
+                                <img class="color-img" src="./img/carcolor11.png" alt="white">
+                            </span>
+                            <span class="el-desc--color ">
+                                Цвет галактики
+                            </span>
+                        </span>
+                    </label>
+
+                    <label class="checkbox-group-el" for="carcolor12">
+                        <input name="carType" type="checkbox" value="carcolor12" id="carcolor12" class="real-checkbox">
+                        <span class="custom-checkbox">
+                            <span class="el-icon--color color-img__wrapper">
+                                <img class="color-img" src="./img/carcolor12.png" alt="white">
+                            </span>
+                            <span class="el-desc--color ">
+                                Цвет имени
+                            </span>
+                        </span>
+                    </label>
+
+                    <label class="checkbox-group-el" for="carcolor13">
+                        <input name="carType" type="checkbox" value="carcolor13" id="carcolor13" class="real-checkbox">
+                        <span class="custom-checkbox">
+                            <span class="el-icon--color color-img__wrapper">
+                                <img class="color-img" src="./img/carcolor13.png" alt="white">
+                            </span>
+                            <span class="el-desc--color ">
+                                Красный
+                            </span>
+                        </span>
+                    </label>
+
+                    <label class="checkbox-group-el" for="carcolor14">
+                        <input name="carType" type="checkbox" value="carcolor14" id="carcolor14" class="real-checkbox">
+                        <span class="custom-checkbox">
+                            <span class="el-icon--color color-img__wrapper">
+                                <img class="color-img" src="./img/carcolor14.png" alt="white">
+                            </span>
+                            <span class="el-desc--color ">
+                                Апельсин
+                            </span>
+                        </span>
+                    </label>
+
+                    <label class="checkbox-group-el" for="carcolor15">
+                        <input name="carType" type="checkbox" value="carcolor15" id="carcolor15" class="real-checkbox">
+                        <span class="custom-checkbox">
+                            <span class="el-icon--color color-img__wrapper">
+                                <img class="color-img" src="./img/carcolor15.png" alt="white">
+                            </span>
+                            <span class="el-desc--color ">
+                                Аметист
+                            </span>
+                        </span>
+                    </label>
+
+                    <label class="checkbox-group-el" for="carcolor16">
+                        <input name="carType" type="checkbox" value="carcolor16" id="carcolor16" class="real-checkbox">
+                        <span class="custom-checkbox">
+                            <span class="el-icon--color color-img__wrapper">
+                                <img class="color-img" src="./img/carcolor16.png" alt="white">
+                            </span>
+                            <span class="el-desc--color ">
+                                Фиолетовый
+                            </span>
+                        </span>
+                    </label>
+
+                    <label class="checkbox-group-el" for="carcolor17">
+                        <input name="carType" type="checkbox" value="carcolor17" id="carcolor17" class="real-checkbox">
+                        <span class="custom-checkbox">
+                            <span class="el-icon--color color-img__wrapper">
+                                <img class="color-img" src="./img/carcolor17.png" alt="white">
+                            </span>
+                            <span class="el-desc--color ">
+                                Розовый
+                            </span>
+                        </span>
+                    </label>
+
+                    <label class="checkbox-group-el" for="carcolor18">
+                        <input name="carType" type="checkbox" value="carcolor18" id="carcolor18" class="real-checkbox">
+                        <span class="custom-checkbox">
+                            <span class="el-icon--color color-img__wrapper">
+                                <img class="color-img" src="./img/carcolor18.png" alt="white">
+                            </span>
+                            <span class="el-desc--color ">
+                                Желтый
+                            </span>
+                        </span>
+                    </label>
+
+                    <label class="checkbox-group-el" for="carcolor19">
+                        <input name="carType" type="checkbox" value="carcolor19" id="carcolor19" class="real-checkbox">
+                        <span class="custom-checkbox">
+                            <span class="el-icon--color color-img__wrapper">
+                                <img class="color-img" src="./img/carcolor19.png" alt="white">
+                            </span>
+                            <span class="el-desc--color ">
+                                Цвет тростника
+                            </span>
+                        </span>
+                    </label>
+
+                    <label class="checkbox-group-el" for="carcolor20">
+                        <input name="carType" type="checkbox" value="carcolor20" id="carcolor20" class="real-checkbox">
+                        <span class="custom-checkbox">
+                            <span class="el-icon--color color-img__wrapper">
+                                <img class="color-img" src="./img/carcolor20.png" alt="white">
+                            </span>
+                            <span class="el-desc--color ">
+                                Цвет пенсии
+                            </span>
+                        </span>
+                    </label>
+
+                    <label class="checkbox-group-el" for="carcolor21">
+                        <input name="carType" type="checkbox" value="carcolor21" id="carcolor21" class="real-checkbox">
+                        <span class="custom-checkbox">
+                            <span class="el-icon--color color-img__wrapper">
+                                <img class="color-img" src="./img/carcolor21.png" alt="white">
+                            </span>
+                            <span class="el-desc--color ">
+                                Коричневый
+                            </span>
+                        </span>
+                    </label>
+
+                    <label class="checkbox-group-el" for="carcolor22">
+                        <input name="carType" type="checkbox" value="carcolor22" id="carcolor22" class="real-checkbox">
+                        <span class="custom-checkbox">
+                            <span class="el-icon--color color-img__wrapper">
+                                <img class="color-img" src="./img/carcolor22.png" alt="white">
+                            </span>
+                            <span class="el-desc--color ">
+                                Коричневый двухцветный
+                            </span>
+                        </span>
+                    </label>
+
+                    <label class="checkbox-group-el" for="carcolor23">
+                        <input name="carType" type="checkbox" value="carcolor23" id="carcolor23" class="real-checkbox">
+                        <span class="custom-checkbox">
+                            <span class="el-icon--color color-img__wrapper">
+                                <img class="color-img" src="./img/carcolor23.png" alt="white">
+                            </span>
+                            <span class="el-desc--color ">
+                                Золото
+                            </span>
+                        </span>
+                    </label>
+
+                    <label class="checkbox-group-el" for="carcolor24">
+                        <input name="carType" type="checkbox" value="carcolor24" id="carcolor24" class="real-checkbox">
+                        <span class="custom-checkbox">
+                            <span class="el-icon--color color-img__wrapper">
+                                <img class="color-img" src="./img/carcolor24.png" alt="white">
+                            </span>
+                            <span class="el-desc--color ">
+                                Золотой двухцветный
+                            </span>
+                        </span>
+                    </label>
+
+                    <label class="checkbox-group-el" for="carcolor25">
+                        <input name="carType" type="checkbox" value="carcolor25" id="carcolor25" class="real-checkbox">
+                        <span class="custom-checkbox">
+                            <span class="el-icon--color color-img__wrapper">
+                                <img class="color-img" src="./img/carcolor25.png" alt="white">
+                            </span>
+                            <span class="el-desc--color ">
+                                Синий
+                            </span>
+                        </span>
+                    </label>
+
+                    <label class="checkbox-group-el" for="carcolor26">
+                        <input name="carType" type="checkbox" value="carcolor26" id="carcolor26" class="real-checkbox">
+                        <span class="custom-checkbox">
+                            <span class="el-icon--color color-img__wrapper">
+                                <img class="color-img" src="./img/carcolor26.png" alt="white">
+                            </span>
+                            <span class="el-desc--color ">
+                                Небесно-голубой
+                            </span>
+                        </span>
+                    </label>
+
+                    <label class="checkbox-group-el" for="carcolor27">
+                        <input name="carType" type="checkbox" value="carcolor27" id="carcolor27" class="real-checkbox">
+                        <span class="custom-checkbox">
+                            <span class="el-icon--color color-img__wrapper">
+                                <img class="color-img" src="./img/carcolor27.png" alt="white">
+                            </span>
+                            <span class="el-desc--color ">
+                                Темно-зеленый
+                            </span>
+                        </span>
+                    </label>
+
+                    <label class="checkbox-group-el" for="carcolor28">
+                        <input name="carType" type="checkbox" value="carcolor28" id="carcolor28" class="real-checkbox">
+                        <span class="custom-checkbox">
+                            <span class="el-icon--color color-img__wrapper">
+                                <img class="color-img" src="./img/carcolor28.png" alt="white">
+                            </span>
+                            <span class="el-desc--color ">
+                                Зеленый
+                            </span>
+                        </span>
+                    </label>
+
+                    <label class="checkbox-group-el" for="carcolor29">
+                        <input name="carType" type="checkbox" value="carcolor29" id="carcolor29" class="real-checkbox">
+                        <span class="custom-checkbox">
+                            <span class="el-icon--color color-img__wrapper">
+                                <img class="color-img" src="./img/carcolor29.png" alt="#9ab85c">
+                            </span>
+                            <span class="el-desc--color ">
+                                Светло-зеленый
+                            </span>
+                        </span>
+                    </label>
+
+                    <label class="checkbox-group-el" for="carcolor30">
+                        <input name="carType" type="checkbox" value="carcolor30" id="carcolor30" class="real-checkbox">
+                        <span class="custom-checkbox">
+                            <span class="el-icon--color color-img__wrapper">
+                                <img class="color-img" src="./img/carcolor30.png" alt="#207d7b">
+                            </span>
+                            <span class="el-desc--color ">
+                                Бирюзовый
+                            </span>
+                        </span>
+                    </label>
+
+                </div>
+            </div>
+        </div>
+        <!-- Цвет -->
+
+        <!-- Объем двигателя -->
+        <div class="filter-el filter-el-carVolume">
+            <label class="filter-el__title">Объем двигателя</label>
+            <div class="row">
+                <div class="input-wrapper">
+                    <input class="input" type="number" id="volumeFrom" placeholder="От">
+                </div>
+                <div class="input-wrapper">
+                    <input class="input" type="number" id="volumeTo" placeholder="До">
+                </div>
+            </div>
+        </div>
+        <!-- Объем двигателя -->
+
+        <!-- Топливо -->
+        <div class="filter-el filter-el-carFuel">
+            <button class="accordion">Топливо</button>
+            <div class="accordion-content">
+                <div class="checkbox-group checkbox-group--carFuel">
+                    <label class="checkbox-group-el" for="carfuel01">
+                        <input name="carFuel" type="checkbox" value="carfuel01" id="carfuel01" class="real-checkbox">
+                        <span class="custom-checkbox">Бензин</span>
+                    </label>
+
+                    <label class="checkbox-group-el" for="carfuel02">
+                        <input name="carFuel" type="checkbox" value="carfuel02" id="carfuel02" class="real-checkbox">
+                        <span class="custom-checkbox">Дизель</span>
+                    </label>
+
+                    <label class="checkbox-group-el" for="carfuel03">
+                        <input name="carFuel" type="checkbox" value="carfuel03" id="carfuel03" class="real-checkbox">
+                        <span class="custom-checkbox">Газ (LPG)</span>
+                    </label>
+
+                    <label class="checkbox-group-el" for="carfuel04">
+                        <input name="carFuel" type="checkbox" value="carfuel04" id="carfuel04" class="real-checkbox">
+                        <span class="custom-checkbox">Бензин + Газ (LPG)</span>
+                    </label>
+
+                    <label class="checkbox-group-el" for="carfuel05">
+                        <input name="carFuel" type="checkbox" value="carfuel05" id="carfuel05" class="real-checkbox">
+                        <span class="custom-checkbox">Бензин + Электричество (гибрид)</span>
+                    </label>
+
+                    <label class="checkbox-group-el" for="carfuel06">
+                        <input name="carFuel" type="checkbox" value="carfuel06" id="carfuel06" class="real-checkbox">
+                        <span class="custom-checkbox">Дизель + Электричество (гибрид)</span>
+                    </label>
+
+                    <label class="checkbox-group-el" for="carfuel07">
+                        <input name="carFuel" type="checkbox" value="carfuel07" id="carfuel07" class="real-checkbox">
+                        <span class="custom-checkbox">Газ (LPG) + Электричество</span>
+                    </label>
+
+                    <label class="checkbox-group-el" for="carfuel08">
+                        <input name="carFuel" type="checkbox" value="carfuel08" id="carfuel08" class="real-checkbox">
+                        <span class="custom-checkbox">Электричество</span>
+                    </label>
+
+                    <label class="checkbox-group-el" for="carfuel09">
+                        <input name="carFuel" type="checkbox" value="carfuel09" id="carfuel09" class="real-checkbox">
+                        <span class="custom-checkbox">Бензин + CNG (сжатый природный газ)</span>
+                    </label>
+
+                    <label class="checkbox-group-el" for="carfuel10">
+                        <input name="carFuel" type="checkbox" value="carfuel10" id="carfuel10" class="real-checkbox">
+                        <span class="custom-checkbox">LNG (сжиженный природный газ)</span>
+                    </label>
+
+                    <label class="checkbox-group-el" for="carfuel11">
+                        <input name="carFuel" type="checkbox" value="carfuel11" id="carfuel11" class="real-checkbox">
+                        <span class="custom-checkbox">CNG (сжатый природный газ)</span>
+                    </label>
+
+                    <label class="checkbox-group-el" for="carfuel12">
+                        <input name="carFuel" type="checkbox" value="carfuel12" id="carfuel12" class="real-checkbox">
+                        <span class="custom-checkbox">Водородное электричество</span>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <!-- Топливо -->
+
+        <!-- Коробка передач -->
+        <div class="filter-el filter-el-carGearbox">
+            <button class="accordion">Коробка передач</button>
+            <div class="accordion-content">
+                <div class="checkbox-group checkbox-group--carGearbox">
+                    <label class="checkbox-group-el" for="cargearbox01">
+                        <input name="carGearbox" type="checkbox" value="cargearbox01" id="cargearbox01" class="real-checkbox">
+                        <span class="custom-checkbox">Автомат</span>
+                    </label>
+        
+                    <label class="checkbox-group-el" for="cargearbox02">
+                        <input name="carGearbox" type="checkbox" value="cargearbox02" id="cargearbox02" class="real-checkbox">
+                        <span class="custom-checkbox">Механика</span>
+                    </label>
+        
+                    <label class="checkbox-group-el" for="cargearbox03">
+                        <input name="carGearbox" type="checkbox" value="cargearbox03" id="cargearbox03" class="real-checkbox">
+                        <span class="custom-checkbox">Полуавтомат</span>
+                    </label>
+        
+                    <label class="checkbox-group-el" for="cargearbox04">
+                        <input name="carGearbox" type="checkbox" value="cargearbox04" id="cargearbox04" class="real-checkbox">
+                        <span class="custom-checkbox">Вариатор</span>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <!-- Коробка передач -->
+
+        <!-- Метод привода -->
+        <div class="filter-el filter-el-carDrivetrain">
+            <button class="accordion">Метод привода</button>
+            <div class="accordion-content">
+                <div class="checkbox-group checkbox-group--carDrivetrain">
+                    <label class="checkbox-group-el" for="cardrivetrain01">
+                        <input name="carDrivetrain" type="checkbox" value="cardrivetrain01" id="cardrivetrain01" class="real-checkbox">
+                        <span class="custom-checkbox">Передний</span>
+                    </label>
+        
+                    <label class="checkbox-group-el" for="cardrivetrain02">
+                        <input name="carDrivetrain" type="checkbox" value="cardrivetrain02" id="cardrivetrain02" class="real-checkbox">
+                        <span class="custom-checkbox">Задний</span>
+                    </label>
+        
+                    <label class="checkbox-group-el" for="cardrivetrain03">
+                        <input name="carDrivetrain" type="checkbox" value="cardrivetrain03" id="cardrivetrain03" class="real-checkbox">
+                        <span class="custom-checkbox">4 колеса</span>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <!-- Метод привода -->
+
+        <!-- Вместительность -->
+        <div class="filter-el filter-el-carCapacity">
+            <button class="accordion">Вместительность</button>
+            <div class="accordion-content">
+                <div class="checkbox-group checkbox-group--carCapacity">
+                    <label class="checkbox-group-el" for="carcapacity01">
+                        <input name="carCapacity" type="checkbox" value="carcapacity01" id="carcapacity01" class="real-checkbox">
+                        <span class="custom-checkbox">4-местный</span>
+                    </label>
+        
+                    <label class="checkbox-group-el" for="carcapacity02">
+                        <input name="carCapacity" type="checkbox" value="carcapacity02" id="carcapacity02" class="real-checkbox">
+                        <span class="custom-checkbox">5-местный</span>
+                    </label>
+        
+                    <label class="checkbox-group-el" for="carcapacity03">
+                        <input name="carCapacity" type="checkbox" value="carcapacity03" id="carcapacity03" class="real-checkbox">
+                        <span class="custom-checkbox">6-местный</span>
+                    </label>
+        
+                    <label class="checkbox-group-el" for="carcapacity04">
+                        <input name="carCapacity" type="checkbox" value="carcapacity04" id="carcapacity04" class="real-checkbox">
+                        <span class="custom-checkbox">7-местный</span>
+                    </label>
+        
+                    <label class="checkbox-group-el" for="carcapacity05">
+                        <input name="carCapacity" type="checkbox" value="carcapacity05" id="carcapacity05" class="real-checkbox">
+                        <span class="custom-checkbox">8-местный</span>
+                    </label>
+        
+                    <label class="checkbox-group-el" for="carcapacity06">
+                        <input name="carCapacity" type="checkbox" value="carcapacity06" id="carcapacity06" class="real-checkbox">
+                        <span class="custom-checkbox">9-местный</span>
+                    </label>
+        
+                    <label class="checkbox-group-el" for="carcapacity07">
+                        <input name="carCapacity" type="checkbox" value="carcapacity07" id="carcapacity07" class="real-checkbox">
+                        <span class="custom-checkbox">11-местный</span>
+                    </label>
+        
+                    <label class="checkbox-group-el" for="carcapacity08">
+                        <input name="carCapacity" type="checkbox" value="carcapacity08" id="carcapacity08" class="real-checkbox">
+                        <span class="custom-checkbox">15-местный</span>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <!-- Вместительность -->
+
+        <!-- Максимальная производительность -->
+        <div class="filter-el filter-el-carPower">
+            <label class="filter-el__title">Максимальная производительность (лошадиные силы)</label>
+            <div class="row">
+                <div class="input-wrapper">
+                    <input class="input" type="number" id="powerFrom" placeholder="От">
+                </div>
+                <div class="input-wrapper">
+                    <input class="input" type="number" id="powerTo" placeholder="До">
+                </div>
+            </div>
+        </div>
+        <!-- Максимальная производительность -->
+
+
+        <div class="filter-button">
+            <button class="button-send" onclick="sendData()">Сохранить</button>
+        </div>
+
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
