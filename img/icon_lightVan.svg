@@ -1,0 +1,15 @@
+<svg id="car09" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <path id="Fill_1" data-name="Fill 1" d="M0,32H32V0H0Z" fill="none" opacity="0"/>
+  <g id="bk" transform="translate(3.334 7.823)">
+    <g id="Group_43" data-name="Group 43" transform="translate(0)">
+      <path id="Stroke_3" data-name="Stroke 3" d="M0,.5H10.84" transform="translate(7.058 13.711)" fill="none" stroke="#212322" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+      <g id="Group_14" data-name="Group 14">
+        <path id="Stroke_4" data-name="Stroke 4" d="M0,2.143A2.143,2.143,0,1,0,2.143,0,2.142,2.142,0,0,0,0,2.143Z" transform="translate(2.772 12.068)" fill="none" stroke="#212322" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+        <path id="Stroke_6" data-name="Stroke 6" d="M0,2.143A2.143,2.143,0,1,0,2.143,0,2.142,2.142,0,0,0,0,2.143Z" transform="translate(17.897 12.068)" fill="none" stroke="#212322" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+        <path id="Stroke_8" data-name="Stroke 8" d="M0,6.513H9.7V0" transform="translate(0.247 0)" fill="none" stroke="#212322" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+        <path id="Stroke_10" data-name="Stroke 10" d="M2.772,14.211h-.9A1.871,1.871,0,0,1,.005,12.339V8.551L0,7.86a2.979,2.979,0,0,1,.839-2.1l.987-1.019L6.011.868A2.959,2.959,0,0,1,8.1,0H21.876a2.722,2.722,0,0,1,2.679,2.237s.779,4.4.779,4.657v6.683a.682.682,0,0,1-.548.668l-2.413-.035" transform="translate(0)" fill="none" stroke="#212322" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+        <path id="Stroke_12" data-name="Stroke 12" d="M0,.5H7.121" transform="translate(18.211 6.013)" fill="none" stroke="#212322" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>
